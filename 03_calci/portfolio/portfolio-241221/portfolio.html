@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <div class="outerContainer">
+        <div class="container">
+    
+            <div class="box">
+                <h1>Indian Cities & Monuments</h1>
+                <h3>Select an Indian City:</h3>
+                <select name="city" id="city">
+                    <option value="">Choose a city...</option>
+                    <option value="Agra" id="agra">Agra</option>
+                    <option value="Jaipur" id="jaipur">Jaipur</option>
+                    <option value="Delhi" id="delhi">Delhi</option>
+                    <option value="Mumbai" id="mumbai">Mumbai</option>
+                    <option value="Kolkata" id="kolkata">Kolkata</option>
+                    <option value="Hyderabad" id="hyderabad">Hyderabad</option>
+                    <option value="Ajmer" id="ajmer">Ajmer</option>
+                    <option value="Chennai" id="chennai">Chennai</option>
+                    <option value="Bangalore" id="bangalore">Bangalore</option>
+                    <option value="Mysore" id="mysore">Mysore</option>
+                </select>
+            </div>
+
+            <div class="monument">
+                <div class="name"><h1 id="monumentName"></h1></div>
+                <div class="image">
+                    <img src="" alt="" id="monumentImage">
+                </div>
+                <div class="description"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- NOTE -->
+    <!-- agar import export kr rhe hai toh type me module likhna zaroori hai  -->
+    <script type="module" src="portfolio.js"></script>
+
+</body>
+</html>
