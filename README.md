@@ -1,1 +1,1 @@
-#This is the repository for only college purpose.
+# This repository for only college purpose.
