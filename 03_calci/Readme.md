@@ -1,1 +1,0 @@
-# This is a Git experiement for college practical of MDM
