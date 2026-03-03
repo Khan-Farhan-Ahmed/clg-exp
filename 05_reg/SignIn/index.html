@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">EasyCare +</h1>
+        <div>
+            <ul class="nav-list">
+                <li onclick="signUp()">SignUp</li>
+                <li onclick="Home()">Home</li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="to-align">
+            <div>
+                <p class="log-in">Log in</p>
+            </div>
+            <form class="inputs">
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" placeholder="Enter email" required>
+                </div>
+                <div class="pass">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="Enter password" required>
+                </div>
+                <div class="submit" type="submit">
+                    <button>Log in</button>
+                </div>
+
+            </form>
+            <div class="sign-up">
+                <p>Don't have an account? <a href="../SignUp/index.html">Sign up</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

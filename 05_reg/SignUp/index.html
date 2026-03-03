@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo">EasyCare +</h1>
+        <div >
+            <ul class="nav-list">
+                <li onclick="signIn()">SignIn</li>
+                <li onclick="Home()">Home</li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="to-align">
+            <div>
+                <p class="log-in">Register</p>
+            </div>
+            <form class="inputs">
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Farhan" required>
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" placeholder="hello@email.com" required>
+                </div>
+                <div class="birthDate">
+                    <label for="birth">Date of birth</label>
+                    <input id="birth" type="date" placeholder="hello@email.com" required>
+                </div>
+                <div class="pass">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" placeholder="password" required>
+                </div>
+                <div class="confirmPass">
+                    <label for="Confpassword">Confirm password</label>
+                    <input id="Confpassword" type="password" placeholder="Confirm password" required>
+                </div>
+                <div class="submit" type="submit">
+                    <button>Submit</button>
+                </div>
+            </form>
+            <div class="sign-up">
+                <p>Already have an account? <a href="../SignIn/index.html">Sign In</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

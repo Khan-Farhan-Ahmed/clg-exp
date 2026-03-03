@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap');
+
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+} 
+
+body {
+    background-color: rgb(238 251 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Share Tech Mono", monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    background-color: rgb(218, 232, 236);
+
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+nav li:hover {
+    background-color: #0099cc;
+    color: white;
+}
+
+
+
+main {
+    margin: 120px auto 0 auto;
+    border: 2px solid rgb(162, 222, 223);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 450px;
+}
+
+.placeholder {
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    width: 100%;
+}
+
+.placeholder h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.placeholder p {
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.placeholder button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0099cc;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.placeholder button:hover {
+    background-color: #0077aa;
+}
