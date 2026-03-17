@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1>Online Product Showcase</h1>
+    </div>
+    <div class="box">
+        <img src="" alt="" id="product-image">
+        <h1 id="product-name"></h1>
+        <h2 id="product-price"></h2>
+        <p id="product-desc"></p>
+        <button id="product-btn">Select any option from below</button>
+    </div>
+    <div class="options">
+        <select name="select product" id="product-select">
+            <option value="none" >Choose product</option>
+            <option value="phone" >Show phone</option>
+            <option value="laptop" >Show laptop</option>
+            <option value="watch" >Show watch</option>
+        </select>
+
+        <button id="toggleBtn">Toggle Description</button>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
