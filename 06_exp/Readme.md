@@ -1,0 +1,1 @@
+# Create a webpage that retrieves, displays, and updates user data from a MySQL database. Implement CRUD operations (Create, Read, Update, Delete) using PHP & MySQL. Ensure user input is validated and securely stored in the database.
